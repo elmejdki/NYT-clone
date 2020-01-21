@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -39,6 +43,7 @@ nav {
   color: black;
   text-decoration: none;
   font-weight: 600;
+  font-size: 14px;
 }
 
 .nav-left-part li {
@@ -477,6 +482,7 @@ footer {
   width: 1200px;
   clear: both;
   margin: 0 auto;
+  margin-bottom: 70px;
 }
 
 footer hr {
@@ -526,11 +532,11 @@ footer > a {
 }
 
 .navigations svg {
-  width: 15px;
+  width: 14px;
 }
 
 .navigations h3 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 35px;
   display: inline-block;
 }
@@ -584,4 +590,42 @@ footer > a {
 
 #footer-footer-links ul li a:hover {
   text-decoration: underline;
+}
+
+.create-account-proposition {
+  padding: 20px;
+  border-top: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
+
+.create-account-proposition .expand-button {
+  float: right;
+}
+
+.expand-button button {
+  height: 0px;
+  background: none;
+  color: black;
+  border: none;
+  padding: 0;
+  position: relative;
+  padding-right: 40px;
+}
+
+.expand-button button svg {
+  position: absolute;
+  top: -2px;
+  right: 10px;
+  transform: rotate(-90deg);
+}
+
+.create-account-proposition h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
 }
