@@ -9,12 +9,16 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  border-bottom: 1px rgba(209, 209, 209, 0.795) solid;
+  box-shadow: 1px rgb(105, 105, 105);
+  background-color: white;
+  z-index: 5;
 }
 
 .nav-container {
   margin: 0 auto;
   width: 1300px;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .nav-container li {
@@ -56,6 +60,48 @@ nav {
 }
 
 .nav-right-part {
-  background-color: royalblue;
   width: 19%;
 }
+
+button {
+  padding: 8px;
+  font-size: 12px;
+  border: 1px solid rgba(55, 90, 124, 0.822);
+  font-weight: 600;
+  background-color: #547C93;
+  color: white;
+  border-radius: 4px;
+}
+
+main {
+  margin-top: 80px;
+  height: 1000px;
+}
+
+.article-header {
+  padding-right: 12%;
+  padding-left: 12%;
+}
+
+.article-header h1 {
+  font-size: 35px;
+  width: 400px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.article-header img {
+  width: 100%;
+}
+
+.article-header p {
+  width: 75%;
+  font-size: 15px;
+}
+
+.credit-caption {
+  color: rgb(156, 156, 156);
+  font-size: 14px;
+}
+
