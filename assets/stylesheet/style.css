@@ -392,3 +392,40 @@ article {
 .article-comments button {
   padding: 10px 80px;
 }
+
+.feature-stories {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.more-suggestions {
+  float: left;
+  height: 30px;
+  width: 70%;
+  border-top: 1px solid black;
+}
+
+.feature-stories aside {
+  float: left;
+  width: calc(30% - 30px);
+  margin: 0 15px;
+  border-top: 1px solid black;
+}
+
+.feature-stories aside h3 {
+  padding: 15px 0;
+}
+
+.feature-stories aside a {
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgb(204, 204, 204);
+  color: black;
+  font-weight: 500;
+}
+
+.feature-stories aside a:hover {
+  color: rgb(104, 104, 104);
+}
