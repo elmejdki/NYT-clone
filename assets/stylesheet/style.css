@@ -105,3 +105,75 @@ main {
   font-size: 14px;
 }
 
+article {
+  padding: 30px 25%;
+}
+
+.author-name {
+  display: inline-block;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.author-name a:hover {
+  text-decoration: none;
+}
+
+.author-name a {
+  color: black;
+}
+
+.author-details {
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+.article-date {
+  float: left;
+  position: relative;
+  top: 10px;
+}
+
+.social-media-icons li {
+  display: inline-block;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.social-media-icon svg {
+  width: 28px;
+  background-color: rgb(233, 233, 233);
+  height: 28px;
+  border-radius: 50%;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.social-media-icon svg:hover {
+  border: 1px solid rgb(173, 173, 173);
+  background-color: white;
+}
+
+.social-media-icons {
+  float: right;
+}
+
+.chat{
+  position: relative;
+}
+
+.views {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 8px;
+}
+
+.reading {
+  clear: both;
+  font-size: 27px;
+}
+
+.reading a {
+  color: #326891;
+}
