@@ -9,8 +9,8 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  border-bottom: 1px rgba(209, 209, 209, 0.795) solid;
-  box-shadow: 1px rgb(105, 105, 105);
+  /* border-bottom: 1px rgba(209, 209, 209, 0.795) solid; */
+  box-shadow: 1px 1px 2px 1px rgba(113, 113, 113, 0.21);
   background-color: white;
   z-index: 5;
 }
@@ -103,6 +103,7 @@ main {
 .credit-caption {
   color: rgb(156, 156, 156);
   font-size: 14px;
+  font-weight: 300;
 }
 
 article {
@@ -355,4 +356,39 @@ article {
 .infographics .writer {
   color: black;
   font-size: 14px;
+}
+
+.video-youtube {
+  width: 100%;
+}
+
+.caption {
+  color: #666;
+  margin-top: 6px;
+  width: 80%
+}
+
+.in-article-img {
+  width: 100%;
+}
+
+.ending-article {
+  color: rgb(102, 102, 102);
+  font-size: 13px;
+}
+
+.ending-article a:hover {
+  text-decoration: none;
+}
+
+.ending-article a {
+  color : rgb(102, 102, 102);
+}
+
+.article-comments {
+  margin-top: 25px;
+}
+
+.article-comments button {
+  padding: 10px 80px;
 }
