@@ -75,7 +75,6 @@ button {
 
 main {
   margin-top: 80px;
-  height: 1000px;
 }
 
 .article-header {
@@ -400,7 +399,6 @@ article {
 
 .more-suggestions {
   float: left;
-  height: 30px;
   width: 70%;
   
 }
@@ -443,9 +441,10 @@ article {
 
 .suggestion-section {
   border-top: 1px solid black;
+  clear: both;
 }
 
-.suggestion-section  h3 {
+.suggestion-section h3 {
   padding: 15px 0;
 }
 
@@ -472,4 +471,68 @@ article {
 
 .middle {
   margin: 0 20px;
+}
+
+footer {
+  width: 1200px;
+  clear: both;
+  margin: 0 auto;
+}
+
+footer hr {
+  height: 3px;
+  margin: 20px 0;
+  border-radius: none;
+}
+
+footer > a {
+  float: left;
+}
+
+.home-link {
+  float: right;
+  color: #326891;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.home-link span {
+  font-size: 8px;
+}
+
+.site-navigation {
+  clear: both;
+  margin-top: 70px;
+}
+
+.navigations {
+  float: left;
+  width: calc(100% / 6);
+}
+
+.navigations li {
+  list-style-type: none;
+  line-height: 25px;
+}
+
+.navigations a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigations a:hover {
+  text-decoration: underline;
+}
+
+.navigations svg {
+  width: 15px;
+}
+
+.navigations h3 {
+  font-size: 18px;
+  display: inline-block;
+}
+
+.navigations h3:hover {
+  text-decoration: underline;
 }
