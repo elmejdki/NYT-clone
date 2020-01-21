@@ -107,6 +107,7 @@ main {
 
 article {
   padding: 30px 25%;
+  position: relative;
 }
 
 .author-name {
@@ -176,4 +177,92 @@ article {
 
 .reading a {
   color: #326891;
+}
+
+.login-suggestion hr {
+  width: 10%;
+  border:0;
+  background-color: rgba(190, 190, 190, 0.753);
+  height: 1px;
+  margin: 15px auto;
+}
+
+.login-suggestion {
+  font-weight: 600;
+}
+
+.login-suggestion p {
+  text-align: center;
+}
+
+.login-suggestion a {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+}
+
+.login-suggestion {
+  margin-bottom: 30px;
+}
+
+.in-parragraph-heading {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#editors-picks {
+  position: absolute;
+  width: 250px;
+  top: 50%;
+  right: 20px;
+}
+
+.epick-header {
+  display: inline-block;
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.picks {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.picks li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.picks li:first-child {
+  width: 30%;
+}
+
+.picks li:last-child {
+  width: 60%;
+}
+
+.picks img {
+  width: 100%; 
+  padding-right: 8px;
+}
+
+.picks span {
+  display: inline-block;
+  /* width: 40%; */
+}
+
+.picks a {
+  text-decoration: none;
+  color: black;
+}
+
+.picks a:hover {
+  text-decoration: underline;
+}
+
+.picks-collection {
+  padding-top: 15px;
+  border-top: 1px solid rgba(187, 187, 187, 0.466);
 }
