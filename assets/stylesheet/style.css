@@ -503,6 +503,7 @@ footer > a {
 .site-navigation {
   clear: both;
   margin-top: 70px;
+  overflow: hidden;
 }
 
 .navigations {
@@ -530,9 +531,57 @@ footer > a {
 
 .navigations h3 {
   font-size: 18px;
+  line-height: 35px;
   display: inline-block;
 }
 
 .navigations h3:hover {
+  text-decoration: underline;
+}
+
+.more-nav-options {
+  font-size: 10px;
+  padding: 10px 0;
+}
+
+.more-nav-options li {
+  line-height: 20px;
+}
+
+#ending-options {
+  border-top: 1px solid rgba(197, 197, 197, 0.671);
+}
+
+#subscribe-navigation {
+  border-left: 1px solid rgba(197, 197, 197, 0.671);
+  padding-left: 15px;
+}
+
+#footer-footer-links {
+  border-top: 1px solid rgba(197, 197, 197, 0.425);
+  width: 1200px;
+  margin: 25px auto;
+  padding: 10px 20px;
+  clear: both;
+  text-align: center
+}
+#footer-footer-links ul {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#footer-footer-links ul li {
+  display: inline-block;
+  font-size: 12px;
+  color: gray;
+  margin-right: 10px;
+}
+
+#footer-footer-links ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+#footer-footer-links ul li a:hover {
   text-decoration: underline;
 }
