@@ -172,7 +172,7 @@ article {
 
 .reading {
   clear: both;
-  font-size: 27px;
+  font-size: 22px;
 }
 
 .reading a {
@@ -250,7 +250,6 @@ article {
 
 .picks span {
   display: inline-block;
-  /* width: 40%; */
 }
 
 .picks a {
@@ -265,4 +264,95 @@ article {
 .picks-collection {
   padding-top: 15px;
   border-top: 1px solid rgba(187, 187, 187, 0.466);
+}
+
+.infographics {
+  padding: 0 14%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.infographics > h3 {
+  padding-bottom: 20px;
+}
+
+.infographics > p {
+  color: #666;
+  padding-bottom: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.image-container {
+  position: relative;
+  width: 940px;
+  margin: 20px auto;
+}
+
+.graphic-desc {
+  width: 220px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.first {
+  position: absolute;
+  top: 140px;
+  left: 0;
+}
+
+.second {
+  position: absolute;
+  top: 140px;
+  left: 240px;
+}
+
+.third {
+  position: absolute;
+  top: 140px;
+  left: 480px;
+}
+
+.fourth {
+  position: absolute;
+  top: 140px;
+  left: 720px;
+}
+
+.fifth {
+  position: absolute;
+  top: 430px;
+  left: 0;
+}
+
+.sixth {
+  position: absolute;
+  top: 430px;
+  left: 240px;
+}
+
+.seventh {
+  position: absolute;
+  top: 430px;
+  left: 480px;
+}
+
+.eigth {
+  position: absolute;
+  top: 430px;
+  left: 720px;
+}
+
+.image-bottom {
+  width: 100px;
+  background-color: black;
+  border: 0;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+.infographics .writer {
+  color: black;
+  font-size: 14px;
 }
