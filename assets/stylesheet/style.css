@@ -37,6 +37,10 @@ footer > a {
   float: left;
 }
 
+.article-container a {
+  color: black;
+}
+
 .navigations a {
   text-decoration: none;
   color: black;
