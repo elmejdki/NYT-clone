@@ -13,7 +13,6 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  /* border-bottom: 1px rgba(209, 209, 209, 0.795) solid; */
   box-shadow: 1px 1px 2px 1px rgba(113, 113, 113, 0.21);
   background-color: white;
   z-index: 5;
@@ -34,9 +33,13 @@ nav {
   width: 20%;
 }
 
+footer > a {
+  float: left;
+}
 
-.nav-left-part a:hover {
-  text-decoration: underline;
+.navigations a {
+  text-decoration: none;
+  color: black;
 }
 
 .nav-left-part a {
@@ -44,6 +47,47 @@ nav {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
+}
+
+.picks a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-center a {
+  width: 100%;
+  display: inline-block;
+}
+
+.author-name a {
+  color: black;
+}
+
+.ending-article a {
+  color: rgb(102, 102, 102);
+}
+
+.login-suggestion a {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+}
+
+.reading a {
+  color: #326891;
+}
+
+.feature-stories aside a {
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgb(204, 204, 204);
+  color: black;
+  font-weight: 500;
+}
+
+.nav-left-part a:hover {
+  text-decoration: underline;
 }
 
 .nav-left-part li {
@@ -55,13 +99,8 @@ nav {
   height: 30px;
 }
 
-.nav-center a {
-  width: 100%;
-  display: inline-block;
-}
-
 .nav-center svg {
-  transform: translateX(calc( 50% + 200px ));
+  transform: translateX(calc(50% + 200px));
 }
 
 .nav-right-part {
@@ -73,7 +112,7 @@ button {
   font-size: 12px;
   border: 1px solid rgba(55, 90, 124, 0.822);
   font-weight: 600;
-  background-color: #547C93;
+  background-color: #547c93;
   color: white;
   border-radius: 4px;
 }
@@ -125,10 +164,6 @@ article {
   text-decoration: none;
 }
 
-.author-name a {
-  color: black;
-}
-
 .author-details {
   padding: 20px 0;
   margin-bottom: 40px;
@@ -146,6 +181,22 @@ article {
   vertical-align: middle;
 }
 
+.navigations svg {
+  width: 14px;
+}
+
+.navigations h3 {
+  font-size: 16px;
+  line-height: 35px;
+  display: inline-block;
+}
+
+.create-account-proposition h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
 .social-media-icon svg {
   width: 28px;
   background-color: rgb(233, 233, 233);
@@ -153,6 +204,13 @@ article {
   border-radius: 50%;
   padding: 7px;
   cursor: pointer;
+}
+
+.expand-button button svg {
+  position: absolute;
+  top: -2px;
+  right: 10px;
+  transform: rotate(-90deg);
 }
 
 .social-media-icon svg:hover {
@@ -164,7 +222,7 @@ article {
   float: right;
 }
 
-.chat{
+.chat {
   position: relative;
 }
 
@@ -180,33 +238,27 @@ article {
   font-size: 22px;
 }
 
-.reading a {
-  color: #326891;
+footer hr {
+  height: 3px;
+  margin: 20px 0;
+  border-radius: none;
 }
 
 .login-suggestion hr {
   width: 10%;
-  border:0;
+  border: 0;
   background-color: rgba(190, 190, 190, 0.753);
   height: 1px;
   margin: 15px auto;
-}
-
-.login-suggestion {
-  font-weight: 600;
 }
 
 .login-suggestion p {
   text-align: center;
 }
 
-.login-suggestion a {
-  color: rgb(50, 104, 145);
-  text-decoration: none;
-}
-
 .login-suggestion {
   margin-bottom: 30px;
+  font-weight: 600;
 }
 
 .in-parragraph-heading {
@@ -240,6 +292,15 @@ article {
   vertical-align: top;
 }
 
+.navigations li {
+  list-style-type: none;
+  line-height: 25px;
+}
+
+.more-nav-options li {
+  line-height: 20px;
+}
+
 .picks li:first-child {
   width: 30%;
 }
@@ -249,17 +310,12 @@ article {
 }
 
 .picks img {
-  width: 100%; 
+  width: 100%;
   padding-right: 8px;
 }
 
 .picks span {
   display: inline-block;
-}
-
-.picks a {
-  text-decoration: none;
-  color: black;
 }
 
 .picks a:hover {
@@ -275,6 +331,7 @@ article {
   padding: 0 14%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .infographics > h3 {
   padding-bottom: 20px;
 }
@@ -369,7 +426,7 @@ article {
 .caption {
   color: #666;
   margin-top: 6px;
-  width: 80%
+  width: 80%;
 }
 
 .in-article-img {
@@ -383,10 +440,6 @@ article {
 
 .ending-article a:hover {
   text-decoration: none;
-}
-
-.ending-article a {
-  color : rgb(102, 102, 102);
 }
 
 .article-comments {
@@ -405,7 +458,6 @@ article {
 .more-suggestions {
   float: left;
   width: 70%;
-  
 }
 
 .feature-stories aside {
@@ -415,18 +467,16 @@ article {
   border-top: 1px solid black;
 }
 
+.suggestion-section h3 {
+  padding: 15px 0;
+}
+
 .feature-stories aside h3 {
   padding: 15px 0;
 }
 
-.feature-stories aside a {
-  text-decoration: none;
-  font-size: 20px;
-  display: block;
-  padding: 10px 0;
-  border-top: 1px solid rgb(204, 204, 204);
-  color: black;
-  font-weight: 500;
+.navigations a:hover {
+  text-decoration: underline;
 }
 
 .feature-stories aside a:hover {
@@ -434,7 +484,7 @@ article {
 }
 
 .article-container {
-  width: calc((100%/3) - 40px/3);
+  width: calc((100% / 3) - 40px / 3);
   margin-bottom: 25px;
   float: left;
   height: 300px;
@@ -449,10 +499,6 @@ article {
   clear: both;
 }
 
-.suggestion-section h3 {
-  padding: 15px 0;
-}
-
 .article-author {
   font-size: 10px;
   color: #666;
@@ -461,7 +507,7 @@ article {
 
 .article-title {
   display: inline-block;
-  clear: both; 
+  clear: both;
   font-size: 18px;
   margin-top: 5px;
 }
@@ -483,16 +529,6 @@ footer {
   clear: both;
   margin: 0 auto;
   margin-bottom: 70px;
-}
-
-footer hr {
-  height: 3px;
-  margin: 20px 0;
-  border-radius: none;
-}
-
-footer > a {
-  float: left;
 }
 
 .home-link {
@@ -517,30 +553,6 @@ footer > a {
   width: calc(100% / 6);
 }
 
-.navigations li {
-  list-style-type: none;
-  line-height: 25px;
-}
-
-.navigations a {
-  text-decoration: none;
-  color: black;
-}
-
-.navigations a:hover {
-  text-decoration: underline;
-}
-
-.navigations svg {
-  width: 14px;
-}
-
-.navigations h3 {
-  font-size: 16px;
-  line-height: 35px;
-  display: inline-block;
-}
-
 .navigations h3:hover {
   text-decoration: underline;
 }
@@ -548,10 +560,6 @@ footer > a {
 .more-nav-options {
   font-size: 10px;
   padding: 10px 0;
-}
-
-.more-nav-options li {
-  line-height: 20px;
 }
 
 #ending-options {
@@ -569,8 +577,9 @@ footer > a {
   margin: 25px auto;
   padding: 10px 20px;
   clear: both;
-  text-align: center
+  text-align: center;
 }
+
 #footer-footer-links ul {
   display: inline-block;
   margin: 0 auto;
@@ -602,30 +611,16 @@ footer > a {
   background-color: white;
 }
 
-
 .create-account-proposition .expand-button {
   float: right;
 }
 
 .expand-button button {
-  height: 0px;
+  height: 0;
   background: none;
   color: black;
   border: none;
   padding: 0;
   position: relative;
   padding-right: 40px;
-}
-
-.expand-button button svg {
-  position: absolute;
-  top: -2px;
-  right: 10px;
-  transform: rotate(-90deg);
-}
-
-.create-account-proposition h3 {
-  text-align: center;
-  font-weight: 400;
-  font-size: 16px;
 }
