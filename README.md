@@ -24,15 +24,15 @@ To make this repository working in your local machine you need only a browser.
 
 👤 **Zakariae El Mejdki**
 
-- Github: [@githubhandle](https://github.com/elmejdki)
-- Twitter: [@twitterhandle](https://twitter.com/0ca7848f87ab470)
-- Linkedin: [linkedin](https://www.linkedin.com/in/zakariae-el-mejdki-644898139/)
+- Github: [@elmejdki](https://github.com/elmejdki)
+- Twitter: [@ZakariaeElMejdki](https://twitter.com/0ca7848f87ab470)
+- Linkedin: [Zakariae El Mejdki](https://www.linkedin.com/in/zakariae-el-mejdki-644898139/)
 
 👤 **Diego Antonio Reyes Coronado**
 
-- Github: [@githubhandle](https://github.com/xtrmdarc)
-- Twitter: [@twitterhandle](https://twitter.com/DiegoAn91629127)
-- Linkedin: [linkedin](https://www.linkedin.com/in/diego-reyes-coronado-7a7189b7/)
+- Github: [@Diego](https://github.com/xtrmdarc)
+- Twitter: [@Diego Antonio](https://twitter.com/DiegoAn91629127)
+- Linkedin: [Diego Antonio Reyes Cornado](https://www.linkedin.com/in/diego-reyes-coronado-7a7189b7/)
 
 ## 🤝 Contributing
 
